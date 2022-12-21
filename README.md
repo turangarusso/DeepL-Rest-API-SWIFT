@@ -55,7 +55,7 @@ final class Network: ObservableObject {
     @Published var key: String = "your api key"
 ```
 
-You can use the var "language" to set the Source Language to translate the text into
+You can use the var "language" to set the Targhet Language to translate the text into
 
 ```swift
     final class Network: ObservableObject {

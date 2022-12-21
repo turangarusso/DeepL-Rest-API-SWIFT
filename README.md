@@ -63,7 +63,7 @@ You can use the var "language" to set the Source Language to translate the text 
     @Published var language: String = "ES"
 ```
 
-You can use the var "text" to set the phrase to translate
+You can use the var "input" to set the phrase to translate
 
 ```swift
  @Published var input: String = "home sweet home".replacingOccurrences(of: " ", with: "%20")
@@ -73,7 +73,7 @@ In the view you can easy change the input text and language using:
 ```swift
   .onAppear {
             network.language = "IT"
-            network.text = "sentence to translate"
+            network.input = "sentence to translate"
             network.getUsers()
         }
 ```

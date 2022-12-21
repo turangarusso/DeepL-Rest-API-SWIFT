@@ -12,7 +12,7 @@ final class Network: ObservableObject {
     @Published var users: TranslationResponse
     @Published var language: String = "ES"
     @Published var input: String = "home sweet home".replacingOccurrences(of: " ", with: "%20")
-    @Published var key: String = "c4f410b1-c08f-3295-ae18-ee75ad64bbf5:fx"
+    @Published var key: String = "your api key"
 
     
     init(users: TranslationResponse){
